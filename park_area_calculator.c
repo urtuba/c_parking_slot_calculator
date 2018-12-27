@@ -68,7 +68,7 @@ int main()
 	scanf("%d", &cars);
 
 	if(cars >= actual_size*actual_size){
-		printf("Best Slot Found In: %d %d\r\n",0,0);
+		printf("No slot found\n");
 		return 0;
 	}else{
 		int i = 0;
